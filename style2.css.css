@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(rgb(0, 153, 255),rgb(0, 238, 255),rgb(0, 153, 255));
+    background-size: cover;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    color:rgb(0, 89, 255);
+    text-align: left;
+    font-size: 30px;
+}
+h4,h5,h6{
+   color: red;
+   border-bottom:solid black;
+   text-align: left;
+   font-size: 30px;
+}
+p{
+    font-size: large;
+    color: white;
+}
+n{
+    right: 50px;
+}
+a{
+    font-size: large;
+}
+e{
+    color: white;
+}
+*{
+    margin: 6px;/*pour une margin de 0px*/
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    position: relative;
+    min-height: 10px;
+    top: 30px;
+    height: 700px;/*550*/
+    left:25%;
+    width:40%;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    nav-up: auto;
+    background:url('https://www.techbooky.com/wp-content/uploads/2020/10/programming.jpg');
+    background-size: auto;
+}
